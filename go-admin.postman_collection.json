@@ -565,6 +565,35 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/upload",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"234234\",\n\t\"description\": \"ert234234ert\",\n\t\"image\": \"http:32423423.com\",\n    \"price\": 88.55\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/upload",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"upload"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
